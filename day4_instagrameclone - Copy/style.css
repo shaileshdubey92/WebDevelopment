@@ -1,0 +1,131 @@
+*{
+    /* background-color: black;
+    color: aliceblue; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: rgb(248, 240, 255);
+}
+.left_sidebar{
+    background-color:rgb(20, 2, 2);
+    color: rgb(233, 237, 240);
+    width: 15%;
+    height: 100vh;
+    padding: 2rem;
+    border-right: 1 px solid gray;
+}
+.items{
+    padding: 1.2rem;
+    font-size: 1.5vw;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+
+
+
+.header{
+    margin: 10px;
+  
+}
+.stories_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.story_items img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rgb(209, 209, 205);
+    background-color: rgb(182, 183, 185);
+}
+.Insta_Stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+}
+.Insta_Stories::-webkit-scrollbar{
+display: none;
+}
+.insta_clone{
+
+    display: flex;
+}
+._img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._img img{
+
+    width: 50px;
+    height: 50px;
+  
+    border:2px solid rgb(210, 210, 203);
+    border-radius:100% ;
+
+}
+.person_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 3, 3);
+    /* width: 100%; */
+    gap: 22px;
+    margin: 1rem;
+    
+
+    
+
+}
+.sudgession{
+    width: 25%;
+background-color: rgb(5, 5, 5);
+color: antiquewhite;
+margin-top: 35px;
+}
+
+.content{
+    background-color: rgb(5, 4, 4);
+    /* display: flex;s
+    justify-content: center;
+    align-items: center; */
+    width: 60%;
+    margin: 1rem;
+}
+#text{
+    justify-content: space-between;
+    width: 80%;
+}
+
+._post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._post img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media only sreen and (max-width: 768px){
+    .items{
+        font-size: 1.5vw;
+    }
+}
