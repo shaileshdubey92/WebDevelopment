@@ -1,17 +1,21 @@
 import React from 'react'
+import Person from"./Components/Person"
+import Adharcard from './Components/Adharcard'
 
 const App = () => {
 
-  const name = 'ram';
-  const name2 = 'syam';
+ 
 
   return (
     <>
-    <div>
-      <h1>My Name Is {name}</h1>
-      <p>Your name is {name2}</p>
+    <div className="suparman">
+
+<Person/>
+<Adharcard/>
     </div>
-    <div>This is my div</div>
+ 
+
+ 
 
     </>
   )
