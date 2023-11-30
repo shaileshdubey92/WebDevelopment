@@ -19,7 +19,7 @@ const Persondetail = () => {
    
 
     return (
-        <div>
+        <div className='suparman'>
             <h1>{data.name}</h1>
             <h2>{data.age}</h2>
             <h3>{data.gamil}</h3>
