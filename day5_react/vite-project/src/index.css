@@ -3,11 +3,13 @@
   background-color: yellow;
   color:black;
   padding:2rem;
+  margin: 2rem;
 }
 
-.spaiderman{
+/* .spaiderman{
   border:2px solid rgb(69, 198, 218);
   background-color: rgb(206, 61, 165);
   color:black;
   padding:2rem;
-}
+  margin: 2rem;
+} */
