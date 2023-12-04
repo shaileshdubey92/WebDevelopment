@@ -5,6 +5,8 @@ import Persondetail from './Components/Persondetail';
 // import Adharcard from './Components/Adharcard';
 import Product from './Components/Product';
 import Navbar from './Components/Navbar';
+import Use_Effect from './Components/Use_Effect';
+import Fetch_Data from './Components/Fetch_Data';
 
 const App = () => {
   
@@ -15,7 +17,9 @@ const App = () => {
         {/* <data/> */}
         
         {/* <Product product={product}/> */}
-        <Product />
+        {/* <Product /> */}
+        {/* <Use_Effect/> */}
+        <Fetch_Data/>
       </div>
     </>
   );
