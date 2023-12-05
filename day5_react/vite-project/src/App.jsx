@@ -7,6 +7,8 @@ import Product from './Components/Product';
 import Navbar from './Components/Navbar';
 import Use_Effect from './Components/Use_Effect';
 import Fetch_Data from './Components/Fetch_Data';
+import FormHandling from './FormHandling';
+import Multiple_input_handling from './Multiple_input_handling';
 
 const App = () => {
   
@@ -19,7 +21,10 @@ const App = () => {
         {/* <Product product={product}/> */}
         {/* <Product /> */}
         {/* <Use_Effect/> */}
-        <Fetch_Data/>
+        {/* <Fetch_Data/> */}
+       <FormHandling/>
+       {/* <Multiple_input_handling/> */}
+
       </div>
     </>
   );
