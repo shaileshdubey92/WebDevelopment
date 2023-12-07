@@ -24,7 +24,7 @@ export const product = [
       title: 'Fire-Boltt Lumos Stainless Steel',
       description:
         '20 cm (6.1-inch) Super Retina XDR disp Cinematic mode adds shallow depth of field and shifts focus automatically in your videos',
-      price: 799,
+      price: 1799,
       imgurl:
         'https://m.media-amazon.com/images/I/414qtFAsMDL._SX300_SY300_QL70_FMwebp_.jpg',
       category: 'smartwatch',

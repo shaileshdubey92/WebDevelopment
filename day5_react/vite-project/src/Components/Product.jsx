@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { product } from "../Product_data";
+import { Link } from "react-router-dom";
 
 const Product = () => {
   const [products, setproducts] = useState(product);
@@ -12,10 +13,10 @@ const Product = () => {
   // console.log(product);
   return (
     <>
-      <div className="container d-flex justified-content-center sticky-top bg-light">
+      <div className="container d-flex justified-content-between sticky-top bg-light">
         <button
          onClick={()=>setproducts(product)}
-        className="btn btn-primary mx-3">No_filter</button>
+        className="btn btn-primary mx-3">All</button>
         <button
         onClick={()=>filterMethod("mobile")}
         className="btn btn-warning mx-3">mobile</button>
@@ -33,7 +34,7 @@ const Product = () => {
               <div className="text-center my-5">
                 <h1>{data.title}</h1>
                 <p>{data.description}</p>
-                <div
+                <Link to={`/products/${data.Id}`}
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -50,7 +51,7 @@ const Product = () => {
                     src={data.imgurl}
                     alt="img"
                   />
-                </div>
+                </Link>
                 <button className="btn btn-warning">
                   {data.price}
                   {""}₹

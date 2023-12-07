@@ -20,6 +20,8 @@ import Contact from './Router/Contact';
 // import Data from './Router/Product';
 import Nav_bar from './Router/Nav_bar';
 import DynamicRouter from './Router/DynamicRouter';
+import product from './Components/Product';
+
 
 
 
@@ -30,11 +32,12 @@ const App = () => {
     <Router>
       <Nav_bar/>
       <Routes>
-        <Route path={'/'} element={<Home />} />
+        {/* <Route path={'/'} element={<Home />} /> */}
         <Route path={'/about'} element={<About/>} />
         <Route path={'/career'} element={<Career/>} />
         <Route path={'/teams'} element={<Teams/>} />
         <Route path={'/contact'} element={<Contact/>} />
+        <Route path={'/products'} element={<Product/>} />
         <Route path={'/products/:slug'} element={<DynamicRouter/>} />
 
         {/* <Route path={'/product'} element={<Data/>} /> */}
