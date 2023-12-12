@@ -21,24 +21,30 @@ import Contact from './Router/Contact';
 import Nav_bar from './Router/Nav_bar';
 import DynamicRouter from './Router/DynamicRouter';
 import product from './Components/Product';
+import SearchItems from './Components/SearchItems';
+import IndianGoverment from './Components/IndianGoverment';
 
 
 
 
 const App = () => {
+
+  const money = 1000;
   
   return (
     <>
     <Router>
-      <Nav_bar/>
-      <Routes>
+      {/* <Nav_bar/> */}
+      <IndianGoverment money={money}/>
+      {/* <Routes> */}
         {/* <Route path={'/'} element={<Home />} /> */}
-        <Route path={'/about'} element={<About/>} />
+        {/* <Route path={'/about'} element={<About/>} />
         <Route path={'/career'} element={<Career/>} />
         <Route path={'/teams'} element={<Teams/>} />
         <Route path={'/contact'} element={<Contact/>} />
         <Route path={'/products'} element={<Product/>} />
         <Route path={'/products/:slug'} element={<DynamicRouter/>} />
+        <Route path={'/products/search/:superman'} element={<SearchItems/>} /> */}
 
         {/* <Route path={'/product'} element={<Data/>} /> */}
       {/* <div> */}
@@ -53,7 +59,7 @@ const App = () => {
        {/* <Multiple_input_handling/> */}
 
       {/* </div> */}
-      </Routes>
+      {/* </Routes> */}
       </Router>
     </>
   );
